@@ -1,0 +1,7 @@
+[submodule "Router"]
+	path = Router
+	url = https://github.com/smeeckaert/router
+
+[submodule "ORM"]
+	path = orm
+	url = https://github.com/smeeckaert/orm

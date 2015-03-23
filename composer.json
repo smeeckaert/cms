@@ -1,0 +1,19 @@
+{
+  "name": "MaMA/fw",
+  "authors": [
+    {
+      "name": "Martin Smeeckaert",
+      "email": "martin@smeeckaert.com"
+    }
+  ],
+  "require": {
+  },
+  "autoload": {
+    "psr-4": {
+      "Router\\": "Router",
+      "Tools\\": "Tools",
+      "Orm\\": "Orm",
+      "Model\\": "Model"
+    }
+  }
+}
