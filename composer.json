@@ -13,7 +13,9 @@
       "Router\\": "Router",
       "Tools\\": "Tools",
       "Orm\\": "Orm",
-      "Model\\": "Model"
+      "Model\\": "Model",
+      "Controller\\": "Controller",
+      "Framework\\": "Framework"
     }
   }
 }

@@ -3,5 +3,13 @@
 	url = https://github.com/smeeckaert/router
 
 [submodule "ORM"]
-	path = orm
+	path = Orm
 	url = https://github.com/smeeckaert/orm
+
+[submodule "Tools"]
+	path = Tools
+	url = https://github.com/smeeckaert/tools
+
+[submodule "Controller"]
+	path = Controller
+	url = https://github.com/smeeckaert/controller
