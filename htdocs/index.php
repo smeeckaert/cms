@@ -9,9 +9,13 @@ $routeur->addParam('page', array('model' => 'Model\Page'));
 
 $url = \Tools\Server::uri();
 
+$loader = new Twig_Loader_Filesystem(APPPATH . '/templates');
+$twig   = new Twig_Environment($loader, array('cache' => CACHEPATH . 'twig'));
+
+
 try {
     $controller = $routeur->getController($url);
-    echo $routeur->dispatch($controller);
+    echo $routeur->dispatch($controller, array('twig' => $twig));
 } catch (\Router\Exception\NotFound $e) {
     \Tools\Header::status(404);
     echo "not found";
