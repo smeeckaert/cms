@@ -1,5 +1,5 @@
 {
-  "name": "MaMA/fw",
+  "name": "smeeckaert/fw",
   "authors": [
     {
       "name": "Martin Smeeckaert",
@@ -11,12 +11,8 @@
   },
   "autoload": {
     "psr-4": {
-      "Router\\": "Router",
-      "Tools\\": "Tools",
-      "Orm\\": "Orm",
-      "Model\\": "Model",
-      "Controller\\": "Controller",
-      "Framework\\": "Framework"
+      "FW\\": "FW",
+      "App\\": ""
     }
   }
 }

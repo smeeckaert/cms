@@ -1,15 +1,15 @@
-[submodule "Router"]
+[submodule "FW\Router"]
 	path = Router
 	url = https://github.com/smeeckaert/router
 
-[submodule "ORM"]
+[submodule "FW\ORM"]
 	path = Orm
 	url = https://github.com/smeeckaert/orm
 
-[submodule "Tools"]
+[submodule "FW\Tools"]
 	path = Tools
 	url = https://github.com/smeeckaert/tools
 
-[submodule "Controller"]
+[submodule "FW\Controller"]
 	path = Controller
 	url = https://github.com/smeeckaert/controller

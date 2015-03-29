@@ -7,4 +7,4 @@ $dsn      = 'mysql:dbname=fw;host=localhost';
 $user     = 'root';
 $password = '';
 
-\Orm\DB::init($dsn, $user, $password);
+\FW\Orm\DB::init($dsn, $user, $password);

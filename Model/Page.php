@@ -1,9 +1,9 @@
 <?php
 
-namespace Model;
+namespace App\Model;
 
-use Orm\Model;
-use Orm\Traits\Url;
+use FW\Orm\Model;
+use FW\Orm\Traits\Url;
 
 class Page extends Model
 {
